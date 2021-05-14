@@ -1,0 +1,34 @@
+.header {
+  height: 90px;
+  padding: 10px;
+}
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  h1 {
+    font-size: 1.3rem;
+  }
+  span {
+    opacity: 0.6;
+    font-size: 0.8rem;
+  }
+}
+.header-title {
+  display: flex;
+  align-items: center;
+  h1 {
+    font-weight: 600;
+    margin-left: 0.3rem;
+  }
+}
+.header-list {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-around;
+  li {
+    a {
+      font-weight: 450;
+    }
+  }
+}
